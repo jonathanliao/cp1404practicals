@@ -1,6 +1,11 @@
 def main():
     name = get_name()
-    for i in range(1, len(name), 2):
+    frequency = int(input("please enter the frequency : "))
+    print_name(name, frequency)
+
+
+def print_name(name, step=2):
+    for i in range(0, len(name), step):
         print(name[i])
 
 
