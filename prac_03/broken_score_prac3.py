@@ -10,7 +10,7 @@ def main():
 
     print(result)
 
-
+#123
 def evaluate_score(score):
     if score < 0 or score > 100:
         # print("Invalid score")
